@@ -3,13 +3,12 @@
 	"id": "magic_world",
 	"version": "${version}",
 	"name": "Magic World",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "在一个魔法世界不断探索。------Keep exploring in a magic world.",
 	"authors": [
-		"Me!"
+		"ChainGhost"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ChainGhost/Fabric-Magic_World-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/magic_world/icon.png",
@@ -17,6 +16,9 @@
 	"entrypoints": {
 		"main": [
 			"com.chain_ghost.magic_world.MagicWorld"
+		],
+		"client": [
+			"com.chain_ghost.magic_world.MagicWorldClient"
 		]
 	},
 	"mixins": [
