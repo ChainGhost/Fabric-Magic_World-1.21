@@ -7,5 +7,6 @@
   "item.magic_world.lapis_lazuli_key": "Lapis Lazuli Key",
   "item.magic_world.emerald_key": "Emerald Key",
   "item.magic_world.diamond_key": "Diamond Key",
-  "item.magic_world.netherite_key": "Netherite Key"
+  "item.magic_world.netherite_key": "Netherite Key",
+  "itemGroups.magic_world.special_items": "Magic World·Special Items"
 }

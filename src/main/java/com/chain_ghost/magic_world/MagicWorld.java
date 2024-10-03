@@ -1,5 +1,6 @@
 package com.chain_ghost.magic_world;
 
+import com.chain_ghost.magic_world.item.ModItemGroups;
 import com.chain_ghost.magic_world.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class MagicWorld implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
