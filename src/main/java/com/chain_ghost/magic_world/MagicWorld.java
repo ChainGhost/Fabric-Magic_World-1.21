@@ -1,5 +1,6 @@
 package com.chain_ghost.magic_world;
 
+import com.chain_ghost.magic_world.block.ModBlocks;
 import com.chain_ghost.magic_world.item.ModItemGroups;
 import com.chain_ghost.magic_world.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,6 +24,7 @@ public class MagicWorld implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

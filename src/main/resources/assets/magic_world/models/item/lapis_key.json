@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "magic_world:item/lapis_lazuli_key"
+    "layer0": "magic_world:item/lapis_key"
   },
   "display": {
     "thirdperson_righthand": {

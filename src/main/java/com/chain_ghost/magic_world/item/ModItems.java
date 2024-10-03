@@ -13,7 +13,7 @@ public class ModItems {
     public static final Item IRON_KEY = registerItems("iron_key", new Item(new Item.Settings().rarity(Rarity.UNCOMMON).maxCount(1)));
     public static final Item GOLD_KEY = registerItems("gold_key", new Item(new Item.Settings().rarity(Rarity.RARE).maxCount(1)));
     public static final Item REDSTONE_KEY = registerItems("redstone_key", new Item(new Item.Settings().rarity(Rarity.RARE).maxCount(1)));
-    public static final Item LAPIS_LAZULI_KEY = registerItems("lapis_lazuli_key", new Item(new Item.Settings().rarity(Rarity.RARE).maxCount(1)));
+    public static final Item LAPIS_KEY = registerItems("lapis_key", new Item(new Item.Settings().rarity(Rarity.RARE).maxCount(1)));
     public static final Item EMERALD_KEY = registerItems("emerald_key", new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1)));
     public static final Item DIAMOND_KEY = registerItems("diamond_key", new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1)));
     public static final Item NETHERITE_KEY = registerItems("netherite_key", new Item(new Item.Settings().rarity(Rarity.EPIC).maxCount(1)));
